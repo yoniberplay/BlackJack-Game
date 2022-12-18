@@ -35,7 +35,7 @@ btnPedir.addEventListener("click",() => {
   if(AcumuladorJugador === 21){
       btnPedir.disabled = true;
       btnDeteter.disabled = true;
-      alert("Felicidades.");
+      alert("Felicidades, Ganaste!");
   }else if(AcumuladorJugador > 21){
       btnPedir.disabled = true;
       btnDeteter.disabled = true;
